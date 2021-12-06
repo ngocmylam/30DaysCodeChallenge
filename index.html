@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Create Modal</title>
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
 			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
-    <title>Profile Card</title>
-    <link rel="icon" type="image-x-icon" href="logo.png">
-</head>
-<body>      
-    <div class="card">
-        <div class="card__img">
-            <img src="Mie.jpg" alt="">
-        </div>
-        <div class="card__content">
-            <h2>Ngoc My Lam</h2>
-            <p>Front-end Developer</p>
-        <div class="card__icons">
-            <a href="https://www.facebook.com/mylam64">
-                <i class="fab fa-facebook-f"></i>
-            </a>            
-            <a href="https://www.youtube.com/watch?v=DkiLJzL6kv4">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.behance.net/lammy1/projects?fbclid=IwAR3O2FMMSES0l_qyCJTJc1wbq0Ju9MDQgHVF8hD3CeUwkpH6FRB-Se8D1WE">
-                <i class="fab fa-behance"></i>
-            </a>
-            <a href="https://github.com/ngocmylam/30DaysCodeChallenge">
-                <i class="fab fa-github"></i>
-            </a>                        
-        </div>        
-        <button>Contact me</button> 
-        </div>                      
-    </div>                    
-</body>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<button class="open-modal-btn">Open Modal</button>
+		<div class="modal hide">
+			<div class="modal__inner">
+				<div class="modal__header">
+					<p>Welcome to Nodemy</p>
+					<i class="fas fa-times"></i>
+				</div>
+				<div class="modal__body">
+					<h2>Modal</h2>
+					<p>Đây là phần body của modal</p>
+				</div>
+				<div class="modal__footer">
+					<button>Close</button>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
 </html>
