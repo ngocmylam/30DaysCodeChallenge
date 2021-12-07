@@ -2,48 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 1 - Product Card</title>
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+    <title>Document</title>
 </head>
 <body>
-    <div class="card">  
-        <div class="card__icon fz25">
-            <span>
-                <i class='bx bx-heart'></i>   
-            </span>      
-            <span>
-                <i class='bx bx-cart-alt'></i>            
-            </span>                                                  
+    <div class="wrapper">
+        <div class="image">
+            <img src="img1.jpeg" alt="">
         </div>
-        <div class="card__img">
-            <img src="Nike Zoom KD 12.png" alt="">
+        <div class="image">
+            <img src="img2.jpeg" alt="">
         </div>
-        <div class="card__title">
-            <h2>Nike Zoom KD 12</h2>
+        <div class="image">
+            <img src="img3.jpeg" alt="">
         </div>
-        <div class="card__price">
-            <h2>99$</h2>
+        <div class="image">
+            <img src="img4.jpeg" alt="">
         </div>
-        <div class="card__size">
-            <h3>Size:</h3>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
+        <div class="image">
+            <img src="img5.jpeg" alt="">
         </div>
-        <div class="card__color">
-            <h3>Color:</h3>
-            <div class="card__color__green"></div>
-            <div class="card__color__red"></div>
-            <div class="card__color__black"></div>
+        <div class="image">
+            <img src="img6.jpeg" alt="">
         </div>
-        <div class="card__action">
-            <button>Buy now</button>
-            <button>Add cart</button>
+        <div class="image">
+            <img src="img7.jpeg" alt="">
         </div>
+        <div class="image">
+            <img src="img8.jpeg" alt="">
+        </div>                
     </div>
+    <div class="gallery">    
+        <i class="fas fa-times close"></i>    
+        <span class="control prev">
+            <i class="fas fa-chevron-left"></i>
+        </span>
+        <span class="control next">
+            <i class="fas fa-chevron-right"></i>
+        </span>
+        <span class="gallery-inner">
+            <img src="" alt="">
+        </span>        
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
